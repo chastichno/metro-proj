@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <title>Metro Game</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    /> -->
+  </head>
+
+  <body>
+    <header>
+      <h1>Отгадай ветку метро, на которой находится станция!</h1>
+    </header>
+    <div class="main-container">
+      <div class="game-box">
+        <div class="points"><span>Очки: </span><span id="points">0</span></div>
+        <div class="station-name">
+          <p id="station-name">
+            Загрузка...
+          </p>
+        </div>
+        <div class="new-game-button">
+          <button type="button" id="new-game">New Game</button type="button">
+        </div>
+        <div class="try-again"><p id="try-again"></p></div>
+      </div>
+      <div class="answers-box">
+        <button type="button" id="answer-0" class="answer" value="0">
+          Калининская
+        </button type="button">
+        <button type="button" id="answer-1" class="answer" value="1">
+          Замоскворецкая
+        </button type="button">
+        <button type="button" id="answer-2" class="answer" value="2">
+          Калужско-Рижская
+        </button type="button">
+        <button type="button" id="answer-3" class="answer" value="3">
+          Сокольническая
+        </button type="button">
+        <button type="button" id="answer-4" class="answer" value="4">
+          Арбатско-Покровская
+        </button type="button">
+        <button type="button" id="answer-5" class="answer" value="5">
+          Филевская
+        </button type="button">
+        <button type="button" id="answer-6" class="answer" value="6">
+          Серпуховско-Тимирязевская
+        </button type="button">
+        <button type="button" id="answer-7" class="answer" value="7">
+          Таганско-Краснопресненская
+        </button type="button">
+        <button type="button" id="answer-8" class="answer" value="8">
+          Кольцевая
+        </button type="button">
+        <button type="button" id="answer-9" class="answer" value="9">
+          Люблинско-Дмитровская
+        </button type="button">
+        <button type="button" id="answer-10" class="answer" value="10">Каховская</button type="button">
+        <button type="button" id="answer-11" class="answer" value="11">Бутовская</button type="button">
+        <button type="button" id="answer-12" class="answer" value="12">Солнцевская</button type="button">
+        <button type="button" id="answer-13" class="answer" value="13">МЦК</button type="button">
+        <button type="button" id="answer-14" class="answer" value="14">Монорельс</button type="button">
+        <button type="button" id="answer-15" class="answer" value="15">
+          Большая кольцевая линия
+        </button type="button">
+        <button type="button" id="answer-16" class="answer" value="16">Некрасовская</button type="button">
+        <button type="button" id="answer-17" class="answer" value="17">МЦД - 1</button type="button">
+        <button type="button" id="answer-18" class="answer" value="18">МЦД - 2</button type="button">
+      </div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

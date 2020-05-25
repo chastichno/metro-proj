@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;400;500;700&display=swap");
+:root {
+  --main-color: gray;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--main-color);
+  font-family: "Fira Sans", sans-serif;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding-top: 50px 20px;
+  text-align: center;
+}
+h1 {
+  font-size: 4rem;
+  margin: 20px;
+}
+.main-container {
+  min-width: 90%;
+  border: 1px solid blue;
+  background-color: whitesmoke;
+}
+
+.game-box {
+  color: var(--main-color);
+  border-radius: 5px;
+  text-align: center;
+  vertical-align: center;
+  min-width: 80%;
+  font-size: 5rem;
+  padding: 25px;
+}
+.points {
+  font-weight: 500;
+}
+
+.station-name {
+  margin-bottom: 40px;
+}
+.new-game-button {
+  margin-bottom: 40px;
+}
+button {
+  font-family: "Fira Sans", sans-serif;
+  color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+}
+
+.answers-box button {
+  width: 30%;
+  height: 10rem;
+  margin: 0;
+  padding: 0;
+}
+
+.answer-box {
+  border: 10px solid red;
+  width: 100%;
+  text-align: center;
+}
+
+.answer {
+  font-size: 2rem;
+  max-height: 5rem;
+}
+
+#new-game {
+  background-color: var(--main-color);
+  min-width: 50%;
+  min-height: 50px;
+  font-size: 3rem;
+  padding: 15px;
+}
+
+#metro-lines {
+  text-align: center;
+}
+
+#answer-0 {
+  background-color: #ffcd1c;
+}
+#answer-1 {
+  background-color: #4fb04f;
+}
+#answer-2 {
+  background-color: #f07e24;
+}
+#answer-3 {
+  background-color: #e42313;
+}
+#answer-4 {
+  background-color: #0072ba;
+}
+#answer-5 {
+  background-color: #1ebcef;
+}
+#answer-6 {
+  background-color: #adacac;
+}
+#answer-7 {
+  background-color: #943e90;
+}
+#answer-8 {
+  background-color: #915133;
+}
+#answer-9 {
+  background-color: #bed12c;
+}
+#answer-10 {
+  background-color: #88cdcf;
+}
+#answer-11 {
+  background-color: #bac8e8;
+}
+#answer-12 {
+  background-color: #ffcd1c;
+}
+#answer-13 {
+  background-color: #cc4c6e;
+}
+#answer-14 {
+  background-color: #006da8;
+}
+#answer-15 {
+  background-color: #88cdcf;
+}
+#answer-16 {
+  background-color: #cc0066;
+}
+#answer-17 {
+  background-color: #f5a528;
+}
+#answer-18 {
+  background-color: #e74683;
+}
+
+@media screen and (max-width: 1000px) {
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    padding: 70px 100px;
+  }
+  .container {
+    min-width: 80%;
+    border: 1px solid blue;
+  }
+
+  .game-box {
+    min-width: 80%;
+  }
+  .answers-box {
+  }
+}
