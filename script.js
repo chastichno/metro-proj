@@ -17,8 +17,8 @@ async function randomStation() {
     let numberOfStation = Math.floor(Math.random() * (randomLine.stations.length));
     console.log("random station = ", randomLine.stations[numberOfStation]);
     trueHex = data.lines[numberOfLine].hex_color;
-    // document.querySelector("#station-name").innerHTML = randomLine.stations[numberOfStation].name.replace("ё", "е");
-    document.querySelector("#station-name").innerHTML = "Савеловская";
+    document.querySelector("#station-name").innerHTML = randomLine.stations[numberOfStation].name.replace("ё", "е");
+    // document.querySelector("#station-name").innerHTML = "Савеловская";
 };
 
 async function onClickAction() {
