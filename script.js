@@ -17,13 +17,14 @@ async function randomStation() {
     let numberOfStation = Math.floor(Math.random() * (randomLine.stations.length));
     console.log("random station = ", randomLine.stations[numberOfStation]);
     trueHex = data.lines[numberOfLine].hex_color;
-    document.querySelector("#station-name").innerHTML = randomLine.stations[numberOfStation].name;
+    // document.querySelector("#station-name").innerHTML = randomLine.stations[numberOfStation].name.replace("ё", "е");
+    document.querySelector("#station-name").innerHTML = "Савеловская";
 };
 
 async function onClickAction() {
     let data = await getDataFromAPI();
     const result = data.lines[this.value].stations.filter(station => {
-        return station.name == document.querySelector("#station-name").innerHTML;
+        return station.name.replace("ё", "е") == document.querySelector("#station-name").innerHTML;
     });
     if (result.length > 0) {
         document.documentElement.style.setProperty('--main-color', `#${trueHex}`);

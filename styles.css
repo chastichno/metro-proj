@@ -46,8 +46,8 @@ h1 {
 .station-name {
   margin-bottom: 40px;
 }
-.new-game-button {
-  margin-bottom: 40px;
+.try-again {
+  font-weight: 200;
 }
 button {
   font-family: "Fira Sans", sans-serif;
